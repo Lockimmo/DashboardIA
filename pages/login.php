@@ -68,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <?php if (!empty($debug)): ?>
             <div class="alert alert-secondary">
-                <h5 class="mb-2">🛠 Debug</h5>
+                <h5 class="mb-2">🛠 Debugs</h5>
                 <?= $debug ?>
             </div>
         <?php endif; ?>
