@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <div class="row justify-content-center">
     <div class="col-md-6">
-        <h2 class="mb-4 text-center">Connexion</h2>
+        <h2 class="mb-4 text-center">Connexions</h2>
 
         <?php if (!empty($erreur)): ?>
             <div class="alert alert-danger"><?= htmlspecialchars($erreur) ?></div>
